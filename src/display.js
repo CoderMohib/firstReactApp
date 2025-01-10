@@ -16,15 +16,15 @@ export default function Display({product}){
             </h1>
             <ProductImage images={product.images} productName={product.name}/>
             <p>
-                <b>Description:</b>
+                <b>Description: </b>
                 <p>{product.description}</p>
             </p>
             <p>
-                <b>Category:</b> 
+                <b>Category: </b> 
                 {product.category}
             </p>
             <p>
-                <b>Price:</b> 
+                <b>Price: </b> 
                 {product.price}
             </p>
             <p style={{color: GetStockclass(product.stock)}}>
@@ -33,11 +33,11 @@ export default function Display({product}){
                 </b>
             </p>
             <p>
-                <b>Brand:</b> 
+                <b>Brand: </b> 
                 {product.brand}
             </p>
             <p>
-                <b>Rating:</b> 
+                <b>Rating: </b> 
                 <span className={GetColour(product.rating)}> {product.rating}</span>
             </p>
         </div>

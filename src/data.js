@@ -4,10 +4,10 @@ export const products = [
     name: "Wireless Bluetooth Headphones",
     category: "Electronics",
     price: 59.99,
-    stock: 120,
+    stock: 0,
     description: "High-quality wireless headphones with noise-cancellation and long battery life.",
     brand: "TechAudio",
-    rating: 4.5,
+    rating: 0.99,
     images: [
       "https://images.unsplash.com/photo-1593642634367-d91a135587b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800", // Example headphone image
       "https://images.unsplash.com/photo-1546435770-a3e426bf472b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"

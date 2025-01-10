@@ -6,7 +6,7 @@ function GetColour(rating){
 }
 function GetStockclass(stock){
     if (stock < 0 ) {return null;}
-    if (stock === 0) { return '#ddd';}
+    if (stock === 0) { return 'grey';}
 }
 export default function Display({product}){
     return (
@@ -27,7 +27,7 @@ export default function Display({product}){
                 <b>Price:</b> 
                 {product.price}
             </p>
-            <p style={{backgroundColor: GetStockclass(product.stock)}}>
+            <p style={{color: GetStockclass(product.stock)}}>
                 <b>
                 {product.stock > 1 ? `Stock: ${product.stock}` : "Stock Not Available"}
                 </b>
